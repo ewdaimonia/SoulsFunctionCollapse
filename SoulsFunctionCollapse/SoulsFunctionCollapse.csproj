@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Erd-Tools\src\Erd-Tools\Erd-Tools.csproj" />
+    <ProjectReference Include="..\WaveFunctionCollapse\WaveFunctionCollapse.csproj" />
+  </ItemGroup>
+
+</Project>
